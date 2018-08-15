@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+h1{
+  grid-column: 1/3;
+  grid-row: 1;
+
+  text-align: center;
+}

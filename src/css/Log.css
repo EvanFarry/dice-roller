@@ -1,0 +1,16 @@
+.log {
+  height: 400px;
+  width: 200px;
+  overflow: scroll;
+  background-color: lightgrey;
+  box-shadow: inset 0px 0px 4px 0px;
+}
+
+.time {
+  font-size: .7rem;
+}
+
+ul { padding: 0px; }
+li {
+  list-style: none
+}
