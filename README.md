@@ -1,0 +1,3 @@
+Simple Dice Roller. Watch out Roll20...
+
+> Demo @ https://dice-roller-react.herokuapp.com/
