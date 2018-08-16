@@ -16,12 +16,7 @@ class App extends Component {
 
 
   handleDiceRoll(di){
-    //D100's include 0
-    let value;
-    if (di === '100') {
-      value = Math.floor(Math.random() * di)}
-    else {
-      value = Math.floor(Math.random() * di) + 1 }
+    let value = Math.floor(Math.random() * di) + 1
     let updatedRolls = this.state.rolls
     updatedRolls.push({
       id: uuid.v4(),
